@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+//import { tbsGridConfigs } from "./tbs.grid.configs.js";
+
+
 function App() {
   return (
     <div className="App">
