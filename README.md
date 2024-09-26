@@ -1,9 +1,9 @@
 # tbsgrid test in react javascript
 
-react 에서 정상적으로 동작은 되기는 하나,
+1. react 에서 동작은 되나, 부분부분 버그가 발생.
 
-npm 배포에서 css, image 처리 문제가 있음.
+2. npm 배포에서 css, image 처리 이슈
 
-현재, 대부분의 소스가 변동이 되어서 오류가 있음.
+3. 현재, 대부분의 소스가 변동이 있음.
 
-처리 예정 중
+
