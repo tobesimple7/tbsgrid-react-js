@@ -1,26 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+// import MobileDetect from "mobile-detect";
+// const md = new MobileDetect(window.navigator.userAgent);
+// console.log(md.mobile());
+// //import { tbsGridConfigs } from "./tbs.grid.configs.js";
+// import { tbsGridConfigs } from "tbsgrid_test/dist/tbsgrid-configs.js";
+// console.dir(tbsGridConfigs)
+// import { TbsGrid } from "tbsgrid_test";
 
-//import { tbsGridConfigs } from "./tbs.grid.configs.js";
+import Tbs_Grid from "./tbsgrid";
 
-
+//const grid1 = new TbsGrid('grid1');
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {<Tbs_Grid></Tbs_Grid>}
     </div>
   );
 }
