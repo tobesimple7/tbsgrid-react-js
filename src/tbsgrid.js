@@ -2,13 +2,13 @@ import { useEffect, useRef } from "react";
 
 import { tbsGridConfigs } from "tbsgrid_test/dist/tbsgrid-configs.js";
 
-import { TbsGrid } from "tbsgrid_test";
+import { TbsGrid as TbsGridComponent } from "tbsgrid_test";
 
 import "./tbsgrid.css";
 
 import { grid_data } from "./tbsgrid_data";
 
-function Tbs_Grid() {
+function TbsGrid() {
     useEffect(() => {
         const columns = [
               { name : "custcd"     , header: { text : "Code"          }, width : 100 }
@@ -27,7 +27,7 @@ function Tbs_Grid() {
             , { name : "custnote"   , header: { text : "note"          }, width : 100 }
         ];
         console.dir(tbsGridConfigs);
-        const grid1 = new TbsGrid('grid1', tbsGridConfigs);
+        const grid1 = new TbsGridComponent('grid1', tbsGridConfigs);
         const options = {};
         grid1.setGrid(columns, options);
         grid1.setData(grid_data);
@@ -37,7 +37,7 @@ function Tbs_Grid() {
         };
     }, []);
 
-    return <div id='grid1' style={{ height: "500px", width: "80%", margin: "0 auto" }}></div>;
+    return <div id='grid1' style={{ height: "600px", width: "90%" }}></div>;
 }
 
-export default Tbs_Grid;
+export default TbsGrid;

@@ -8,13 +8,14 @@
 // console.dir(tbsGridConfigs)
 // import { TbsGrid } from "tbsgrid_test";
 
-import Tbs_Grid from "./tbsgrid";
+import TbsGrid from "./tbsgrid";
 
 //const grid1 = new TbsGrid('grid1');
 function App() {
   return (
     <div className="App">
-        {<Tbs_Grid></Tbs_Grid>}
+      <br/>
+        {<TbsGrid></TbsGrid>}
     </div>
   );
 }

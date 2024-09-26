@@ -2082,78 +2082,8 @@ tbs-grid (relative)
     height: 33px;
     overflow: hidden;
     background: #dfe3e8;
-    padding: 3px 3px 3px 30px;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    user-select: none;
-}
-.tbs-grid .tbs-grid-panel80 .tbs-grid-panel-bar {
-    position: relative;
-    display: inline-block;
-    /*display: inline-block;*/
-    /*width: 100%;*/
-    /*height: 27px;*/
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
-    /*background: #ccdb87;*/
-    cursor: pointer;
-    line-height: 1.0em;
-}
-.tbs-grid .tbs-grid-panel80 .tbs-grid-panel-bar-span {
-    position: relative;
-    display: inline-block;
-    padding: 6px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    cursor: pointer;
-    line-height: 1.0em;
-    vertical-align: middle;
-}
-.tbs-grid .tbs-grid-panel80 .tbs-grid-panel-button {
-    position: relative;
-    display: inline-block;
-    /*width: 100px;*/
-    height: 27px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 5px 0px 0px;
-    background: #d8f595;
-    border: 1px solid #424242;
-    cursor: pointer;
-    line-height: 1.0em;
-}
-.tbs-grid .tbs-grid-panel80 .tbs-grid-panel-button-text {
-    display: inline-block;
-    height: 27px;
-    padding: 0px 5px 0px 5px;
-}
-.tbs-grid .tbs-grid-panel80 .tbs-grid-panel-button-icon {
-    display: inline-block;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: none;
-    width: 15px;
-    height: 15px;
-    height: 27px;
-}
-.tbs-grid .tbs-grid-panel80 .bg-red {
-    background-color: rgb(255, 92, 92);
-}
-.tbs-grid .tbs-grid-panel80 .font-white {
-    color: #ffffff;
-}
-/* =========================================================================== */
-/*   Panel80 Grouping                                                          */
-/* =========================================================================== */
-.tbs-grid .tbs-grid-panel80 {
-    position: relative;
-    width: 100%;
-    border-bottom: 1px solid #9b9b9b;
-    height: 33px;
-    overflow: hidden;
-    background: #dfe3e8;
-    padding: 3px 3px 3px 30px;
+    padding: 0px;
+    /*padding: 3px 3px 3px 30px;*/
     -ms-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -2222,7 +2152,8 @@ tbs-grid (relative)
     height: 33px;
     overflow: hidden;
     background: #dfe3e8;
-    padding: 3px 3px 3px 30px;
+    padding: 0px;
+    /*padding: 3px 3px 3px 30px;*/
     -ms-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
