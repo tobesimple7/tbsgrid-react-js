@@ -4,7 +4,8 @@ import { tbsGridConfigs } from "tbsgrid/dist/tbsgrid-configs.js";
 
 import { TbsGrid as TbsGridComponent } from "tbsgrid";
 
-import "./tbsgrid.css";
+//import "./tbsgrid.css";
+import "tbsgrid/dist/css/tbsgrid.css"
 
 import { grid_data } from "./tbsgrid_data";
 
