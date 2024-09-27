@@ -9,7 +9,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "tbsgrid_test": "^0.0.21",
+    "tbsgrid": "^0.0.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -4,9 +4,9 @@
 // const md = new MobileDetect(window.navigator.userAgent);
 // console.log(md.mobile());
 // //import { tbsGridConfigs } from "./tbs.grid.configs.js";
-// import { tbsGridConfigs } from "tbsgrid_test/dist/tbsgrid-configs.js";
+// import { tbsGridConfigs } from "tbsgrid/dist/tbsgrid-configs.js";
 // console.dir(tbsGridConfigs)
-// import { TbsGrid } from "tbsgrid_test";
+// import { TbsGrid } from "tbsgrid";
 
 import TbsGrid from "./tbsgrid";
 

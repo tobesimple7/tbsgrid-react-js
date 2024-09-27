@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 
-import { tbsGridConfigs } from "tbsgrid_test/dist/tbsgrid-configs.js";
+import { tbsGridConfigs } from "tbsgrid/dist/tbsgrid-configs.js";
 
-import { TbsGrid as TbsGridComponent } from "tbsgrid_test";
+import { TbsGrid as TbsGridComponent } from "tbsgrid";
 
 import "./tbsgrid.css";
 
